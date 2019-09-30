@@ -16,15 +16,16 @@ public class Student {
     }
 
     public void addGrade(int grade) {
-       this.grades = grades;
+       this.grades.add(grade);
     }
 
-    public double getGradeAverage() {
+    public int getGradeAverage() {
         int sum = 0;
-        for (int i : grades) sum += i; {
-            System.out.println(((double) sum)/grades.size());
+        for (Integer avg : grades) {
+            sum += avg;
+//            System.out.println( sum / grades.size());
         }
-        return ((double) sum)/grades.size();
+        return sum / grades.size();
     }
 
 
