@@ -1,6 +1,10 @@
+package grades;
+import grades.Student;
+
 public class TestFile {
 
     public static void main(String[] args) {
-        System.out.println("Suuuuhhhh dude!");
+
+        System.out.println(getGradeAverage());
     }
 }
