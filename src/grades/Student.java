@@ -8,7 +8,7 @@ public class Student {
 
 
     public static void main(String[] args) {
-        System.out.println(getGradeAverage());
+//        System.out.println(getGradeAverage());
     }
 
     public Student(String name) {
